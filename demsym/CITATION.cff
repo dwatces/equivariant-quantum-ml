@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If demsym contributes to your work, please cite the paper below."
+title: "demsym: exact twisted symmetries of stim detector error models"
+type: software
+authors:
+  - family-names: Olliver
+    given-names: Daniel
+    email: dwatces@gmail.com
+repository-code: "https://github.com/dwatces/equivariant-quantum-ml"
+url: "https://pypi.org/project/demsym/"
+license: MIT
+version: 0.1.0
+date-released: "2026-06-12"
+preferred-citation:
+  type: article
+  title: "Circuit-level equivariance is code-dependent: obstruction in the
+    surface code, exactness in the honeycomb Floquet code, and consequences
+    for neural decoders"
+  authors:
+    - family-names: Olliver
+      given-names: Daniel
+  year: 2026
+  notes: "Preprint; arXiv identifier to be added on announcement."

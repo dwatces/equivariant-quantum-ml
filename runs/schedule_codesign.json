@@ -1,0 +1,27 @@
+{
+ "families": {
+  "A": {
+   "tried": 576,
+   "collision": 480,
+   "g2": 80,
+   "g3": 0,
+   "passed_gates": 16
+  },
+  "B": {
+   "tried": 576,
+   "collision": 576,
+   "g2": 0,
+   "g3": 0,
+   "passed_gates": 0
+  },
+  "C": {
+   "tried": 576,
+   "collision": 544,
+   "g2": 24,
+   "g3": 0,
+   "passed_gates": 8
+  }
+ },
+ "verified": [],
+ "runtime_s": 2.2228903770446777
+}

@@ -1,0 +1,126 @@
+{
+ "params": {
+  "L": 6,
+  "M": 6,
+  "R": 9,
+  "p": 0.008,
+  "bulk_margin": 6
+ },
+ "modes": {
+  "mpp": {
+   "g2": true,
+   "n_detectors": 276,
+   "n_mechanisms": 3288,
+   "T11": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 3288
+   },
+   "T22": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 3288
+   },
+   "C3_face": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 3288
+   },
+   "C3_vertex": {
+    "class": "screw(dt=1)",
+    "scope": "time-bulk",
+    "exact": true,
+    "n_checked": 1152,
+    "n_mismatch": 0
+   },
+   "C2_face": {
+    "class": "time-reversal-paired (transposes 2 colors)",
+    "scope": "not tested"
+   },
+   "C2_edge": {
+    "class": "time-reversal-paired (transposes 2 colors)",
+    "scope": "not tested"
+   }
+  },
+  "cx-naive": {
+   "g2": true,
+   "n_detectors": 276,
+   "n_mechanisms": 4020,
+   "T11": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 4020
+   },
+   "T22": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 4020
+   },
+   "C3_face": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 4020
+   },
+   "C3_vertex": {
+    "class": "screw(dt=1)",
+    "scope": "time-bulk",
+    "exact": true,
+    "n_checked": 1404,
+    "n_mismatch": 0
+   },
+   "C2_face": {
+    "class": "time-reversal-paired (transposes 2 colors)",
+    "scope": "not tested"
+   },
+   "C2_edge": {
+    "class": "time-reversal-paired (transposes 2 colors)",
+    "scope": "not tested"
+   }
+  },
+  "cx-sym": {
+   "g2": true,
+   "n_detectors": 276,
+   "n_mechanisms": 4020,
+   "T11": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 4020
+   },
+   "T22": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 4020
+   },
+   "C3_face": {
+    "class": "spatial",
+    "scope": "full",
+    "exact": true,
+    "n_checked": 4020
+   },
+   "C3_vertex": {
+    "class": "screw(dt=1)",
+    "scope": "time-bulk",
+    "exact": true,
+    "n_checked": 1404,
+    "n_mismatch": 0
+   },
+   "C2_face": {
+    "class": "time-reversal-paired (transposes 2 colors)",
+    "scope": "not tested"
+   },
+   "C2_edge": {
+    "class": "time-reversal-paired (transposes 2 colors)",
+    "scope": "not tested"
+   }
+  }
+ },
+ "runtime_s": 0.7933681011199951
+}
