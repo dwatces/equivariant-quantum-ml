@@ -36,6 +36,25 @@ PyTorch backbone into an exactly equivariant decoder. Validated by blind
 recovery of The END's analytic toric action (ships as a test). See
 [`demsym/README.md`](demsym/README.md).
 
+## 🐝 hexlife — does the lattice a pattern grows on matter? (new)
+
+**[`hexlife/`](hexlife/)** — matched-density Bravais-lattice Lenia with
+paired controls, built to test the substrate question for
+self-organization rather than learning. One implementation, square and
+hexagonal floors at exactly 1 cell/unit-area, identical rule, identical
+seeds; all metrics lattice-native. Results
+([`hexlife/FINDINGS.md`](hexlife/FINDINGS.md)): substrate-indifference
+at dilute scales (with a five-artifact hunt log showing how easily the
+opposite gets "discovered"), then — below ~3 lattice constants — the
+substrate takes ownership: symmetry selection and orientation locking
+to the crystal axes with commensuration sign flips
+(Novaco–McTague-class physics in a continuous CA; 11,946 patterns,
+replicated across GPU/CPU hardware to the 2nd–3rd decimal), a mapped
+commensurate–incommensurate crossover, and a weak but box-invariant
+hexagonal-floor lock that outlives the square floor's by ~3× in
+spacing — because emergent patterns are themselves hexatic, and only
+the hex floor speaks their symmetry.
+
 ## 🎮 Play against the trained decoder
 
 The 63k-parameter honeycomb decoder from the paper runs **live in your
